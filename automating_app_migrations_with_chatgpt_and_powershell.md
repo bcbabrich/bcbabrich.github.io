@@ -140,7 +140,7 @@ Using ChatGPT to write a PowerShell script sped up the process of migrating each
 
 There is a meme which tells a cautionary tale:
 
-*"When there's a task that can be done manually in 10 minutes but you find a way to automate it in 10 days"**
+*"When there's a task that can be done manually in 10 minutes but you find a way to automate it in 10 days"*
 
 Here, ChatGPT has brought that (hyperbolic) 10 days down to around an hour. If we have to do the task in question 20+ times in a day, then the time saved by automation is worth it. But, as we want to automate more steps and we bring in more business logic, ChatGPT's ability to reduce that 10 day figure decreases.
 
