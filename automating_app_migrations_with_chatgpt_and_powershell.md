@@ -1,4 +1,6 @@
-# Death by 1,000 tabs
+# (Partially) Automating App Migrations Using ChatGPT and PowerShell
+
+## Death by 1,000 tabs
 
 My company is in the process of migration their on-premises datacenter to the cloud. With each app that we migrate comes a whole slew of potential issues, and so we need several different browser services to debug, such as the source code for the app, our app build platform, app deployment platform, the app itself, app-monitoring tools... and the list goes on.
 
@@ -21,7 +23,7 @@ I found that I kept losing focus while opening up each service, logging in, sear
 
 I am going to show how I went from a manual process of navigating these apps to having a PowerShell script which jumps to each one in a short amount of time using ChatGPT.
 
-# Abstracting and Obfuscating
+## Abstracting and Obfuscating
 
 The reader by now has noticed that the app I used in my example is not a real app. When we interact with LLMs, we have to be careful not to leak any sensitive information out to them by copying and pasting directly. We need to identify which parts of our input need to be parameterized and therefore hidden from the LLM. This also helps us abstract whatever process we're trying to capture.
 
@@ -52,7 +54,7 @@ I have some URLs I need to access frequently for my project at work. In this cas
 
 I may also need to add URLs later. So make these variables parameters.
 ```
-# Additions and Limitations
+## Additions and Limitations
 
 It's easy to ask ChatGPT to modify the script so that each of the URLs gets opened in FireFox, and we have a usable script which goes directly to each of the URLs we'd like.
 
@@ -134,7 +136,7 @@ function Generate-MigrationUrls {
 
 Which is pretty good! However, notice that it has decided to add a list of lists `$AdditionalUrls`. It may be that we do not want to implement additional URLs that way. Also, when I was working through this on my own, ChatGPT struggled with this part. Ambiguity leads to hallucinations.
 
-# Problem Scope
+## Problem Scope
 
 Using ChatGPT to write a PowerShell script sped up the process of migrating each app by at least two fold since it let me focus on the process of migration rather than the process of opening and navigating through multiple browser interfaces. There is a temptation to continue down this path: why not map each of our task management tickets (e.g. BugZilla) to the URLs and generate them as well? Or automate the final step of filling out the Excel sheet our vendor is looking for?
 
