@@ -42,18 +42,17 @@ In this experiment there are three exceedingly basic strategies to choose from
 - Always bet on the underdog (the team with positive odds)
 - Always bet on the favorite (the team with negative odds)
 - Flip a coin to choose between the underdog and favorite
+
 ### Graphing The Results
 The results are abysmal. It is almost as if bookies actually anticipated these strategies and set their lines in a way to make sure they are not profitable. All three strategies illustrate a smooth descent into poverty when applied to all the data.
 
-![[favorite_over_all_time.png]]
+![favorite over all time](img/favorite_over_all_time.png?raw=true "Title")
 
 On any given season we can see that there are some fleeting moments of hope but no reason to quit your day job.
 
-![[underdog_over_2021_2022.png]]
+![underdog over 2021 2022](img/undergdog_over_2021_2022.png?raw=true "Title")
 
 ## Conclusion
 The key difference between the stock market and sportsbooks in this context is that prices of stocks are determined indirectly by human behavior and prices of bets are set manually. An index fund is a safe investment because no person can alter human behavior and we can feel secure in the knowledge that the macro behavior of the market is the same as it was a hundred years and it will be the same in a hundred years. Sportsbooks set their lines not according to macro trends but according to whatever will yield the most profit for them.
 
 The strategies tested in our experiment above are nowhere near as complex as those used to set up and manage a real-world index fund. Most importantly they do nothing to try and balance out the risks of each game, as an index fund would do when picking its stocks. The next evolution of this experiment should include which teams are involved in each game so that we can see what happens when we weight picks based on how risky they are given a team's recent performance.
-
-
