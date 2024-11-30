@@ -50,7 +50,7 @@ The results are abysmal. It is almost as if bookies actually anticipated these s
 
 On any given season we can see that there are some fleeting moments of hope but no reason to quit your day job.
 
-![underdog over 2021 2022](img/undergdog_over_2021_2022.png)
+![underdog over 2021 2022](img/underdog_over_2021_2022.png)
 
 ## Conclusion
 The key difference between the stock market and sportsbooks in this context is that prices of stocks are determined indirectly by human behavior and prices of bets are set manually. An index fund is a safe investment because no person can alter human behavior and we can feel secure in the knowledge that the macro behavior of the market is the same as it was a hundred years and it will be the same in a hundred years. Sportsbooks set their lines not according to macro trends but according to whatever will yield the most profit for them.
