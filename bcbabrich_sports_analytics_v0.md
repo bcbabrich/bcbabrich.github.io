@@ -30,6 +30,18 @@ As a consequence our script does two things.
 1. It uses the Selenium testing framework. With this we can [run a headless browser](https://www.zenrows.com/blog/selenium-python-web-scraping#set-up-headleass-mode) and use `window.scrollTo` to prompt the framework to finish rendering its data.
 2. It uses regular expressions to find and extract the odds data, rather than XPath or CSS selectors. There is no way to know these ahead of time.
 
+The data looks like this after being scraped. It is only the odds and the results of the games, not which teams were playing or when.
+
+```
+away,home,winner
++114,-133,1
+-244,+200,1
+-244,+225,0
++154,-169,0
+-278,+250,0
+...
+```
+
 ## Running Betting Strategy Experiments 
 Once all the data is available as CSVs we can loop over every game and calculate how much money we would make or lose using a given strategy.
 
