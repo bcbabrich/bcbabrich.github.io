@@ -77,7 +77,7 @@ And, notably, Texans fans had an all-time season in 2021-2022.
 ![Houston_Texans_over_2021_2022.png](img/local_maxima/Houston_Texans_over_2021_2022.png)
 
 ## Local Maxima As Back To Back Winners
-To there are many ways of defining "local maxima" on data like this, but for now we can search for back to back winners. These are games where, provided they were solely betting on this team all season, the bettor wins and makes money. 
+There are many ways of defining "local maxima" on data like this, but for now we can search for back to back winners. These are games where, provided they were solely betting on this team all season, the bettor wins and makes money. 
 
 Intuitively one senses there are not very many games like this. So we need to ditch the lines in our plot graph. Then, via numpy arrays and masks,we can color our bankroll red or green depending on if we are making or losing money [1](https://matplotlib.org/stable/gallery/color/color_by_yvalue.html) [2](https://numpy.org/doc/2.1/reference/generated/numpy.array.html) [3](https://numpy.org/doc/stable/reference/maskedarray.generic.html). 
 
