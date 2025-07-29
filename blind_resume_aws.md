@@ -58,3 +58,10 @@ The HTML element encompasses everything above the empty space.
 
 Any idea what is going on?
 ```
+
+# Legality
+I had originally hoped to monetize this project, but right before I began the process of signing up for Google AdSense I had the thought: "wait... if I'm using the ESPN API to create a database of players AND to get their statistics, can I make money of it myself?" I'm glad I did because I found out that ESPN is owned by Disney, and their [Terms of Service](https://disneytermsofuse.com/english/#Usage-Rules) clearly state:
+
+"You agree that you will not ... copy or extract the Disney Products using a robot, spider, script, or other automated means ... for the purposes of ... creating or contributing to any collection of data, data set or database"
+
+ChatGPT did help me find out that, according to U.S. law, "facts are not copyrightable" [Feist v. Rural (1991)](https://supreme.justia.com/cases/federal/us/499/340/). So, technically, if I create my database of players and their statistics by hand, then I won't get sued by Disney.
